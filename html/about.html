@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Dog Walkers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/header.css">
+    <link rel="stylesheet" href="../styles/nav.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../styles/general.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+            background-color: darkblue;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            padding: 20px;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        /* Navigation Styles */
+        nav {
+            background-color: var(--secondary-blue);
+            padding: 1rem 0;
+        }
+
+        nav .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: var(--accent-black);
+        }
+
+        .navbar-toggler-icon {
+            background-color: white;
+        }
+
+        /* Promo Section Styles */
+        .promo-section {
+            background-color: var(--secondary-blue);
+            color: white;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        .promo-section a {
+            color: var(--accent-black);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .promo-section h3, .promo-section p {
+            font-size: 1.2rem;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: var(--primary-blue);
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="../images/headerImage.jpg" alt="Header Image">
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="../index.html">Happy Dog Walkers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./dogInformation.html">Benefits of Dog Walking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./dogProductBlog.html">Dog Product Review Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./dogGallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Welcome to Happy Dog Walkers</h2>
+        <p>We provide the best dog walking services to keep your furry friends healthy and happy. With every walk, $1 is donated to animal-related charities to help dogs in need. You can also explore our pages to learn more about the benefits of dog walking, discover top-rated dog products, and enjoy a gallery full of adorable dog images.</p>
+
+        <h3>Why Choose Us?</h3>
+        <ul>
+            <li><strong>Charity Commitment</strong>: We believe in giving back. For every walk booked, $1 is donated to animal-related charities, helping to make a difference in the lives of dogs everywhere.</li>
+            <li><strong>Dog Product Reviews</strong>: Our blog features detailed reviews of the best products for dogs. From toys to health products, our expert recommendations will help you make informed decisions for your furry friend.</li>
+            <li><strong>Dog Walking Benefits</strong>: On our website, you’ll find a wealth of information on how dog walking contributes to your pet’s health and happiness. We discuss the positive impact of regular walks, including improving physical health, reducing anxiety, and enhancing bonding time.</li>
+            <li><strong>Gallery of Happy Dogs</strong>: Our gallery showcases adorable photos of happy dogs enjoying their walks. Additionally, we offer customized dog image gallery websites for $10, perfect for those who want a personalized space to showcase their furry friends.</li>
+        </ul>
+    </main>
+
+    <section class="promo-section">
+        <h3>Explore More:</h3>
+        <ul>
+            <li><a href="./dogInformation.html">Benefits of Dog Walking</a>: Learn how our walking services can improve your dog’s health and happiness.</li>
+            <li><a href="./dogProductBlog.html">Dog Product Review Blog</a>: Discover the best products for your furry friends, reviewed by our team.</li>
+            <li><a href="./dogGallery.html">Gallery</a>: Check out photos of happy dogs. You can also request your own custom dog gallery website for only $10!</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Happy Dog Walkers. All rights reserved. $1 from each walk goes to animal-related charities.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

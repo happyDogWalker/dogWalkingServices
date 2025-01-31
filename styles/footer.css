@@ -1,0 +1,69 @@
+:root {
+  --primary-blue: #1E3A8A;
+  --secondary-blue: #2563EB;
+  --light-blue: #93C5FD;
+  --dark-blue: #1D4ED8;
+  --background-color: #F3F4F6;
+  --text-color: #333;
+  --primary-orange: #FF7F32; /* New orange color */
+  --secondary-orange: #FF9C4F; /* Lighter orange for accents */
+}
+
+
+footer {
+  background-color: var(--secondary-blue);
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+/*  */
+
+.promo-section {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  margin-bottom:5%;
+}
+
+.promo-section h3 {
+  margin-bottom: 15px;
+}
+
+.promo-section label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: bold;
+}
+
+.promo-section input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+body{
+  background-color: darkblue;
+}
+.promo-section button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.promo-section button:hover {
+  background-color: #45a049;
+}
+
+ul li {
+  margin:1rem;
+}

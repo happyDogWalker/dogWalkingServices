@@ -1,0 +1,32 @@
+:root {
+    --primary-blue: #1E3A8A;
+    --secondary-blue: #2563EB;
+    --light-blue: #93C5FD;
+    --dark-blue: #1D4ED8;
+    --background-color: #F3F4F6;
+    --text-color: #333;
+    --primary-orange: #FF7F32; /* New orange color */
+    --secondary-orange: #FF9C4F; /* Lighter orange for accents */
+}
+
+   
+    nav {
+        background-color: var(--primary-orange);
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+        width:100vw;
+    }
+    
+    nav a {
+        color: white;
+        text-decoration: none;
+        margin: 0 15px;
+        font-size: 18px;
+    }
+    
+    nav a:hover {
+        text-decoration: underline;
+        transition: 1s;
+        color:#1E3A8A;
+    }

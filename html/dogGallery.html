@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/nav.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/general.css">
+  <style>
+    /* Modern Blue and Black Color Theme */
+    :root {
+      --primary-blue: #1E3A8A;  /* Deep blue */
+      --secondary-blue: #3B82F6; /* Bright blue */
+      --accent-black: #111827;  /* Jet black */
+      --background-color: #F3F4F6;  /* Light grey background */
+      --text-color: #1F2937;  /* Dark grey text for contrast */
+    }
+
+    /* Gallery Container */
+    .gallery-container {
+      max-width: 600px;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 2%;
+      background-color: var(--secondary-blue);
+      font-family: cursive;
+      border-radius: 10px;
+      padding: 20px;
+      color: #F3F4F6;
+    }
+    .gallery-image {
+      width: 550px;
+      height: 500px;
+      border-radius: 8px;
+    }
+    .gallery-title {
+      font-size: 24px;
+      margin: 10px 0;
+    }
+    .gallery-description {
+      font-size: 16px;
+      color: #F3F4F6;
+    }
+    .button {
+      padding: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #FF9C4F;
+      color: white;
+      border: none;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .button:hover {
+      transition: 1s;
+      background-color: var(--primary-blue);
+    }
+
+    /* Navigation Styles */
+    nav {
+      background-color: var(--secondary-blue);
+      padding: 1rem 0;
+    }
+
+    nav .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: var(--accent-black);
+    }
+
+    .navbar-toggler-icon {
+      background-color: white;
+    }
+
+    /* Promo Section Styles */
+    .promo-section {
+      background-color: var(--secondary-blue);
+      color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      margin: 20px 0;
+    }
+
+    .promo-section a {
+      color: var(--accent-black);
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .promo-section h3, .promo-section p {
+      font-size: 1.2rem;
+    }
+
+    /* Footer Styles */
+    footer {
+      background-color: var(--primary-blue);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    footer p {
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="../images/headerImage.jpg" alt="Header Image">
+  </header>
+    
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Happy Dog Walkers</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="./dogInformation.html">Benefits of Dog Walking</a></li>
+          <li class="nav-item"><a class="nav-link" href="./dogProductBlog.html">Dog Product Review Blog</a></li>
+          <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+  <main>
+    <div class="gallery-container">
+      <h2 class="gallery-title" id="gallery-title"></h2>
+      <img id="gallery-image" class="gallery-image" src="" alt="Art Piece">
+      <p class="gallery-description" id="gallery-description"></p>
+      <div>
+        <button class="button" id="prev-button">Back</button>
+        <button class="button" id="next-button">Next</button>
+      </div>
+    </div>
+  </main>
+
+  <section class="promo-section">
+    <h3>Explore More:</h3>
+    <ul>
+      <li><a href="../html/dogInformation.html">Benefits of Dog Walking</a>: Learn how our walking services can improve your dog’s health and happiness.</li>
+      <li><a href="../html/dogProductBlog.html">Dog Product Review Blog</a>: Discover the best products for your furry friends, reviewed by our team.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Happy Dog Walkers. All rights reserved.</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../scripts/dogGallery.js"></script>
+</body>
+</html>

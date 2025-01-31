@@ -1,0 +1,25 @@
+:root {
+  --primary-blue: #1E3A8A;
+  --secondary-blue: #2563EB;
+  --light-blue: #93C5FD;
+  --dark-blue: #1D4ED8;
+  --background-color: #F3F4F6;
+  --text-color: #333;
+  --primary-orange: #FF7F32; /* New orange color */
+  --secondary-orange: #FF9C4F; /* Lighter orange for accents */
+}
+
+
+
+header {
+  background-color: var(--primary-blue);
+  color: white;
+  /* padding: 20px 0; */
+  text-align: center;
+  width:100vw;
+}
+
+header img{
+  width:100%;
+  height:35vh;
+  }

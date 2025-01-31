@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rover Promotion - Happy Dog Walkers</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/general.css">
+    <style>
+        /* Modern Blue and Black Color Theme */
+:root {
+    --primary-blue: #1E3A8A;  /* Deep blue */
+    --secondary-blue: #3B82F6; /* Bright blue */
+    --accent-black: #111827;  /* Jet black */
+    --background-color: #F3F4F6;  /* Light grey background */
+    --text-color: #1F2937;  /* Dark grey text for contrast */
+}
+
+/* Header Styles */
+header {
+    background-color: var(--primary-blue);
+    color: black;
+    text-align: center;
+    /* padding: 2rem 0; */
+}
+
+/* Navigation Styles */
+nav {
+    background-color: var(--secondary-blue);
+    padding: 1rem 0;
+}
+
+nav .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: var(--accent-black);
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+    margin-top: 2%;
+    max-width: 800px;
+    text-align: center;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-radius: 10px;
+}
+
+/* Promo Section Styles */
+.promo-section {
+    background-color: var(--secondary-blue);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.promo-section a {
+    color: var(--accent-black);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.promo-section h3, .promo-section p {
+    font-size: 1.2rem;
+}
+
+/* Footer Styles */
+footer {
+    background-color: var(--primary-blue);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Additional Promo Section Styles */
+.promo-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.promo-section ul li {
+    margin-bottom: 10px;
+}
+
+.promo-section ul li a {
+    text-decoration: underline;
+}
+</style>
+</head>
+
+<body>
+    <header>
+        <img src="./images/headerImage.jpg">
+    </header>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">Happy Dog Walkers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="../html/dogInformation.html">Benefits of Dog Walking</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/dogProductBlog.html">Dog Product Review Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/dogGallery.html">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../html/about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <h2>Dog Walking Services</h2>
+        <p>Get your dog walked for a competitive price.</p>
+        <div class="promo-section">
+            <h3>Rover Profile: <a href="https://www.rover.com/sit/alexaw62834">https://www.rover.com/sit/alexaw62834</a></h3>
+            <p>Price: $15 per 30 minutes.</p>
+            <p><strong>Donation:</strong> $1 from each walk is donated to a dog shelter at the end of the month with a receipt posted with contributor names.</p>
+
+            <h3>Rover Promo Code: ALEXAW62834 </h3>
+            <p>First time Rover users get $20 walk time for free.</p>
+        </div>
+    </main>
+
+    <section class="promo-section">
+        <h3>Explore More:</h3>
+        <ul>
+            <li><a href="../html/dogInformation.html">Benefits of Dog Walking</a>: Learn how our walking services can improve your dog’s health and happiness.</li>
+            <li><a href="../html/dogProductBlog.html">Dog Product Review Blog</a>: Discover the best products for your furry friends, reviewed by our team.</li>
+            <li><a href="../html/dogGallery.html">Gallery</a>: Check out photos of happy dogs.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Happy Dog Walkers. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+:root {
+    --primary-blue: #1E3A8A;
+    --secondary-blue: #2563EB;
+    --light-blue: #93C5FD;
+    --dark-blue: #1D4ED8;
+    --background-color: #F3F4F6;
+    --text-color: #333;
+    --primary-orange: #FF7F32; /* New orange color */
+    --secondary-orange: #FF9C4F; /* Lighter orange for accents */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: darkblue;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+ul{
+
+    list-style: none;
+}
+
+
+
+main {
+    
+    text-align: center;
+    background-color: var(--light-blue);
+    border-radius: 10px;
+    box-shadow: 0 2px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
